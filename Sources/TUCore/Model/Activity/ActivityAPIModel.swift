@@ -36,7 +36,7 @@ public struct ActivityAPIModel {
         public var Salutatory: String?
         
         public init() {
-            
+            ActivityType = .unknown
         }
     }
     

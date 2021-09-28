@@ -8,7 +8,7 @@
 import Foundation
 import IITool
 
-public protocol Response: Model {
+public protocol TUResponse: Model {
     var ResultCode    : String {get set}
     var ResultMessage : String {get set}
     var RequestID     : String {get set}

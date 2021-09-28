@@ -1,0 +1,86 @@
+//
+//  File.swift
+//  
+//
+//  Created by ice on 2021/9/23.
+//
+
+import Foundation
+
+public class AppDataConfig {
+    public struct KeychainKey {
+        public static let accessToken = "AccessTokenKey"
+    }
+    
+    public struct UserDefaultsKey {
+        public static let isLogin = "isLogin"
+        public static let accountInfo = "accountInfo"
+        public static let didShowCustomOrderTip = "didShowCustomOrderTip"
+        public static let didShowTutorial = "didShowTutorial"
+        public static let didShowEncryptRemind = "didShowEncryptRemind"
+        public static let groupListOrder = "groupListOrder"
+        public static let groupInfo = "groupInfo"
+        public static let groupClassInfo = "groupClassInfo"
+        public static let groupInviteLastUpdateTime = "groupInviteLastUpdateTime"
+        public static let dingDongInviteLastUpdateTime = "dingDongInviteLastUpdateTime"
+        public static let businessCardInviteLastUpdateTime = "businessCardInviteLastUpdateTime"
+        public static let chatMessages = "chatMessages"
+        public static let chatRoomList = "chatRoomList"
+        public static let chatRoomMember = "chatRoomMember"
+        public static let isFirstTimeExchangeBusinessCard = "isFirstTimeExchangeBusinessCard"
+        public static let chatRoomMemberReadInfo = "chatRoomMemberReadInfo"
+        public static let groupSearchRecords = "groupSearchRecords"
+        public static let groupCardLastUpdateTime = "groupCardLastUpdateTime"
+        public static let idleMembersInEachGroup = "idleMembersInEachGroup"
+        public static let draftOfMessageForEachGroup = "draftOfMessageForEachGroup"
+        public static let draftOfReplies = "draftOfReplies"
+        public static let uploadInfo = "imageUploadInfoForInstance"
+        public static let groupAddMemberTipHadShow = "groupAddMemberTip"
+        public static let mainDisplayMode = "mainDisplayMode"
+        public static let mainSortingWay = "mainSortingWay"
+        public static let todoStatusFilter = "todoStatusFilter"
+        public static let todoIsProjectOwnerOn = "todoIsProjectOwnerOn"
+        public static let todoIsTaskOwnerOn = "todoIsTaskOwnerOn"
+        public static let todoIsReviewerOn = "todoIsReviewerOn"
+        public static let todoIsViewerOn = "todoIsViewerOn"
+        public static let todoIsProjectOnlyOn = "todoIsProjectOnlyOn"
+        public static let sendEmergenceTipHadShow = "sendEmergenceTip"
+        public static let delayHour = "DelayHour"
+        public static let newAccount = "newAccount"
+        public static let workSpaceName = "workSpaceName"
+        public static let displayName = "displayName"
+        public static let rsaUploadSuccess = "rsaUploadSuccess"
+        public static let firstTime = "firstTime"
+        public static let rsaSourceSerialID = "rsaSourceSerialID"
+        public static let contactSearchRecords = "contactSearchRecords"
+        public static let doNotDisturbInfo = "doNotDisturbInfo"
+        public static let muteModeInfo = "muteModeInfo"
+        public static let privacyAndSercuritySettings = "privacyAndSercuritySettings"
+        public static let bindingEmail = "bindingEmail"
+        public static let savedMessageSearchRecords = "savedMessageSearchRecords"
+        public static let scoreRecordSearchRecords = "scoreRecordSearchRecords"
+        public static let workSpaceList = "workSpaceList"
+        public static let unSelectWorkSpace = "unSelectWorkSpace"
+        public static let givenScoreMessages = "givenScoreMessages"
+        public static let newGottenScoreMessages = "newGottenScoreMessages"
+        public static let previousGottenScoreMessages = "previousGottenScoreMessages"
+        public static let hasGottenFirstWork = "hasGottenFirstWork"
+        public static let scheduledInfo = "scheduledInfo"
+        public static let rsaPublicKey = "rsaPublicKeyString"
+        public static let rsaPrivateKey = "rsaPrivateKeyString"
+        public static let notifyCenterPostFilterType = "notifyCenterPostFilterType"
+        public static let notifyCenterProjectFilterType = "notifyCenterProjectFilterType"
+        public static let notifyCenterOKRFilterType = "notifyCenterOKRFilterType"
+        public static let notifyCenterTodoExcludeOKRFilterType = "notifyCenterTodoExcludeOKRFilterType"
+        public static let notifyCenterOrganizeFilterType = "notifyCenterOrganizeFilterType"
+        public static let calendarGroupTags = "calendarGroupTags"
+        public static let calendarNotifyTimes = "calendarNotifyTimes"
+        public static let wifiNotify = "WiFiNotify"
+        public static let okrMemberKeywordRecords = "okrMemberKeywordRecords"
+        public static let okrMemberRecords = "okrMemberRecords"
+        public static let todoMemberKeywordRecords = "todoMemberKeywordRecords"
+        public static let todoMemberRecords = "todoMemberRecords"
+        public static let selectedOrganization = "selectedOrganization"
+        public static let isNeedInstruction = "isNeedInstruction"
+    }
+}

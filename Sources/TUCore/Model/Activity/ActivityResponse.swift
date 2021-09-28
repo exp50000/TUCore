@@ -9,7 +9,7 @@ import Foundation
 
 public struct ActivityResponse {
     // MARK: - Response
-    public struct GetCheckingPassResponse: Response {
+    public struct GetCheckingPassResponse: TUResponse {
         public var ResultCode    : String
         public var ResultMessage : String
         public var RequestID     : String
