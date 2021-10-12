@@ -82,5 +82,6 @@ public class AppDataConfig {
         public static let todoMemberRecords = "todoMemberRecords"
         public static let selectedOrganization = "selectedOrganization"
         public static let isNeedInstruction = "isNeedInstruction"
+        public static let gbyodConnectTime = "gbyodConnectTime"
     }
 }
