@@ -10,6 +10,7 @@ import Foundation
 public class AppDataConfig {
     public struct KeychainKey {
         public static let accessToken = "AccessTokenKey"
+        public static let userPass = "userPass"
     }
     
     public struct UserDefaultsKey {
@@ -83,5 +84,9 @@ public class AppDataConfig {
         public static let selectedOrganization = "selectedOrganization"
         public static let isNeedInstruction = "isNeedInstruction"
         public static let gbyodConnectTime = "gbyodConnectTime"
+        public static let tokenManualVaildTime = "tokenManualVaildTime"
+        public static let useBiometrics = "useBiometrics"
+        public static let lastCheckTime = "lastCheckTime"
+        public static let serialID = "serialID"
     }
 }
