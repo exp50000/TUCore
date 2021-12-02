@@ -34,6 +34,7 @@ public struct ActivityAPIModel {
         public var EndDatetime: String?
         public var CheckingDatetime: String?
         public var Salutatory: String?
+        public var Order: String?
         
         public init() {
             ActivityType = .unknown
