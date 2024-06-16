@@ -16,7 +16,6 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/iceboxi/IITool.git", .upToNextMajor(from: "1.0.1")),
-        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.4.0")),
         .package(url: "https://github.com/kishikawakatsumi/KeychainAccess.git", .upToNextMajor(from: "4.2.0")),
     ],
     targets: [
@@ -26,7 +25,6 @@ let package = Package(
             name: "TUCore",
             dependencies: [
                 "IITool",
-                "Alamofire",
                 "KeychainAccess",
             ]),
         .testTarget(

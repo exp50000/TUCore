@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "IITool",
+        "repositoryURL": "https://github.com/iceboxi/IITool.git",
+        "state": {
+          "branch": null,
+          "revision": "caa6d339ff5ce3c87fee106e0dc638f6727eb5fc",
+          "version": "1.0.1"
+        }
+      },
+      {
+        "package": "KeychainAccess",
+        "repositoryURL": "https://github.com/kishikawakatsumi/KeychainAccess.git",
+        "state": {
+          "branch": null,
+          "revision": "84e546727d66f1adc5439debad16270d0fdd04e7",
+          "version": "4.2.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
